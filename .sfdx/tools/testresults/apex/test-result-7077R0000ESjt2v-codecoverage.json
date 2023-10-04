@@ -1,0 +1,24 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "Batch_UpdateAccountsCA",
+      "apexClassOrTriggerId": "01p7R00000CFmRDQA1",
+      "apexTestClassId": "01p7R00000CFqBkQAL",
+      "apexTestMethodName": "testBatch",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 3,
+      "percentage": "40%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5
+        ],
+        "uncoveredLines": [
+          9,
+          11,
+          14
+        ]
+      }
+    }
+  ]
+]

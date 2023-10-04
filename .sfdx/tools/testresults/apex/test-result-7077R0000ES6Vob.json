@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Sep 25 2023 10:05:44 PM",
+    "testExecutionTimeInMs": 86,
+    "testTotalTimeInMs": 86,
+    "commandTimeInMs": 84,
+    "hostname": "https://wise-badger-twbz5s-dev-ed.trailblaze.my.salesforce.com",
+    "orgId": "00D7R000004wxg7UAA",
+    "username": "zahourasmaa@wise-badger-twbz5s.com",
+    "testRunId": "7077R0000ES6Vob",
+    "userId": "0057R00000DhD3YQAV",
+    "totalLines": 21,
+    "coveredLines": 11,
+    "testRunCoverage": "52%",
+    "orgWideCoverage": "23%"
+  },
+  "tests": [
+    {
+      "id": "07M7R000008tYLUUA2",
+      "queueItemId": "7097R000001ASEMQA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077R0000ES6VobQQF",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7R00000CFqBpQAL",
+        "name": "Test_02_Handler_UpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "Test_02_Handler_UpdateAccountCA"
+      },
+      "runTime": 86,
+      "testTimestamp": "2023-09-25T20:05:45.000+0000",
+      "fullName": "Test_02_Handler_UpdateAccountCA.test",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Handler_UpdateAccountCA",
+          "apexClassOrTriggerId": "01p7R00000CFmR3QAL",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "test",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 10,
+          "percentage": "52%",
+          "coverage": {
+            "coveredLines": [
+              19,
+              21,
+              22,
+              23,
+              26,
+              27,
+              30,
+              32,
+              33,
+              34,
+              36
+            ],
+            "uncoveredLines": [
+              3,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p7R00000CFmR3QAL",
+      "name": "Handler_UpdateAccountCA",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 10,
+      "percentage": "52%",
+      "coveredLines": [
+        19,
+        21,
+        22,
+        23,
+        26,
+        27,
+        30,
+        32,
+        33,
+        34,
+        36
+      ],
+      "uncoveredLines": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16
+      ]
+    }
+  ]
+}

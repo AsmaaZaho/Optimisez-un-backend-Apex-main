@@ -6,7 +6,7 @@ public class Test_01_DataGeneration {
     List<Order> orders = new List<Order>();
     List<OrderItem> items = new List<OrderItem>();
     
-    for(Integer i=0; i<nbAccounts; i++){    // Create two accounts and add them into the list of accounts inserted 
+    for(Integer i=0; i<nbAccounts; i++){    // Create n accounts and add them into the list of accounts inserted 
         Account acc = new Account(Name = 'Test Account '+ i);
         accounts.add(acc);
     }
@@ -31,7 +31,8 @@ public class Test_01_DataGeneration {
     );
     Insert pbe;
 
-    
+    // It is used to create records of the OrderItem object associated with specific Order records 
+    // using data from the orders list and insert them into Salesforce
     for(Order o : orders){
     OrderItem oi1 = new OrderItem (OrderId = o.Id, PricebookEntryId = pbe.Id, Quantity=10, UnitPrice = 150);
     items.add(oi1);

@@ -1,0 +1,78 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "UpdateAccountCA",
+      "apexClassOrTriggerId": "01q7R0000011TPlQAM",
+      "apexTestClassId": "01p7R00000CFqBpQAL",
+      "apexTestMethodName": "testAfterupdate",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "trigger_UpdateAccountCA",
+      "apexClassOrTriggerId": "01q7R0000011TSUQA2",
+      "apexTestClassId": "01p7R00000CFqBpQAL",
+      "apexTestMethodName": "testAfterupdate",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "Handler_UpdateAccountCA",
+      "apexClassOrTriggerId": "01p7R00000CFmR3QAL",
+      "apexTestClassId": "01p7R00000CFqBpQAL",
+      "apexTestMethodName": "testAfterupdate",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 10,
+      "percentage": "57%",
+      "coverage": {
+        "coveredLines": [
+          20,
+          22,
+          23,
+          24,
+          27,
+          28,
+          29,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39
+        ],
+        "uncoveredLines": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          17
+        ]
+      }
+    }
+  ]
+]

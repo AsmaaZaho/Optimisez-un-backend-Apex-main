@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Sep 12 2023 10:35:09 PM",
+    "testExecutionTimeInMs": 471,
+    "testTotalTimeInMs": 471,
+    "commandTimeInMs": 117,
+    "hostname": "https://wise-badger-twbz5s-dev-ed.trailblaze.my.salesforce.com",
+    "orgId": "00D7R000004wxg7UAA",
+    "username": "zahourasmaa@wise-badger-twbz5s.com",
+    "testRunId": "7077R0000EQ23Xt",
+    "userId": "0057R00000DhD3YQAV",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "0%"
+  },
+  "tests": [
+    {
+      "id": "07M7R000008tXCvUAM",
+      "queueItemId": "7097R000001AS0OQAW",
+      "stackTrace": "Class.testUpdateAccountCA.test: line 20, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [EffectiveDate, Status]: [EffectiveDate, Status]",
+      "asyncApexJobId": "7077R0000EQ23XtQQJ",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": "07L7R00004swneGUAQ",
+      "apexClass": {
+        "id": "01p7R00000CFbibQAD",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 471,
+      "testTimestamp": "2023-09-12T20:35:09.000+0000",
+      "fullName": "testUpdateAccountCA.test",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [EffectiveDate, Status]: [EffectiveDate, Status]",
+        "exceptionStackTrace": "Class.testUpdateAccountCA.test: line 20, column 1",
+        "className": "testUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 20,
+        "columnNumber": 1
+      }
+    }
+  ],
+  "codecoverage": []
+}

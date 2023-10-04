@@ -1,0 +1,259 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Sep 28 2023 2:51:02 PM",
+    "testExecutionTimeInMs": 759,
+    "testTotalTimeInMs": 759,
+    "commandTimeInMs": 100,
+    "hostname": "https://wise-badger-twbz5s-dev-ed.trailblaze.my.salesforce.com",
+    "orgId": "00D7R000004wxg7UAA",
+    "username": "zahourasmaa@wise-badger-twbz5s.com",
+    "testRunId": "7077R0000ES9hAw",
+    "userId": "0057R00000DhD3YQAV",
+    "totalLines": 39,
+    "coveredLines": 27,
+    "testRunCoverage": "69%",
+    "orgWideCoverage": "47%"
+  },
+  "tests": [
+    {
+      "id": "07M7R000008tYRcUAM",
+      "queueItemId": "7097R000001ASHzQAO",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077R0000ES9hAwQQJ",
+      "methodName": "testAfterupdate",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7R00000CFqBpQAL",
+        "name": "Test_02_Handler_UpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "Test_02_Handler_UpdateAccountCA"
+      },
+      "runTime": 759,
+      "testTimestamp": "2023-09-28T12:51:03.000+0000",
+      "fullName": "Test_02_Handler_UpdateAccountCA.testAfterupdate",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CalculMontant",
+          "apexClassOrTriggerId": "01q7R0000011TPkQAM",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "testAfterupdate",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 1,
+          "percentage": "75%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              7
+            ],
+            "uncoveredLines": [
+              9
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Handler_UpdateAccountCA",
+          "apexClassOrTriggerId": "01p7R00000CFmR3QAL",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "testAfterupdate",
+          "numLinesCovered": 13,
+          "numLinesUncovered": 10,
+          "percentage": "57%",
+          "coverage": {
+            "coveredLines": [
+              20,
+              22,
+              23,
+              24,
+              27,
+              28,
+              29,
+              32,
+              34,
+              35,
+              36,
+              37,
+              39
+            ],
+            "uncoveredLines": [
+              3,
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              17
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "trigger_UpdateAccountCA",
+          "apexClassOrTriggerId": "01q7R0000011TSUQA2",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "testAfterupdate",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "trigger_CalculMontant",
+          "apexClassOrTriggerId": "01q7R0000011TSZQA2",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "testAfterupdate",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 1,
+          "percentage": "75%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              7
+            ],
+            "uncoveredLines": [
+              9
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "UpdateAccountCA",
+          "apexClassOrTriggerId": "01q7R0000011TPlQAM",
+          "apexTestClassId": "01p7R00000CFqBpQAL",
+          "apexTestMethodName": "testAfterupdate",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              6,
+              7,
+              9,
+              10,
+              12
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q7R0000011TPlQAM",
+      "name": "UpdateAccountCA",
+      "type": "ApexTrigger",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q7R0000011TPkQAM",
+      "name": "CalculMontant",
+      "type": "ApexTrigger",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 1,
+      "percentage": "75%",
+      "coveredLines": [
+        3,
+        4,
+        7
+      ],
+      "uncoveredLines": [
+        9
+      ]
+    },
+    {
+      "apexId": "01q7R0000011TSUQA2",
+      "name": "trigger_UpdateAccountCA",
+      "type": "ApexTrigger",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p7R00000CFmR3QAL",
+      "name": "Handler_UpdateAccountCA",
+      "type": "ApexClass",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 10,
+      "percentage": "57%",
+      "coveredLines": [
+        20,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        32,
+        34,
+        35,
+        36,
+        37,
+        39
+      ],
+      "uncoveredLines": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17
+      ]
+    },
+    {
+      "apexId": "01q7R0000011TSZQA2",
+      "name": "trigger_CalculMontant",
+      "type": "ApexTrigger",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 1,
+      "percentage": "75%",
+      "coveredLines": [
+        3,
+        4,
+        7
+      ],
+      "uncoveredLines": [
+        9
+      ]
+    }
+  ]
+}

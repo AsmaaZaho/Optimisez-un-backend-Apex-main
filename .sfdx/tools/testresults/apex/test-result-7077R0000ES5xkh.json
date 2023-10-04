@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Sep 25 2023 1:04:56 PM",
+    "testExecutionTimeInMs": 149,
+    "testTotalTimeInMs": 149,
+    "commandTimeInMs": 198,
+    "hostname": "https://wise-badger-twbz5s-dev-ed.trailblaze.my.salesforce.com",
+    "orgId": "00D7R000004wxg7UAA",
+    "username": "zahourasmaa@wise-badger-twbz5s.com",
+    "testRunId": "7077R0000ES5xkh",
+    "userId": "0057R00000DhD3YQAV",
+    "totalLines": 26,
+    "coveredLines": 7,
+    "testRunCoverage": "27%",
+    "orgWideCoverage": "10%"
+  },
+  "tests": [
+    {
+      "id": "07M7R000008tYL0UAM",
+      "queueItemId": "7097R000001ASDsQAO",
+      "stackTrace": "Class.Handler_UpdateAccountCA.updateAccountCA: line 6, column 1\nClass.Batch_UpdateAccountsCA.execute: line 11, column 1",
+      "message": "System.ListException: Row with null Id at index: 0",
+      "asyncApexJobId": "7077R0000ES5xkhQQB",
+      "methodName": "Test",
+      "outcome": "Fail",
+      "apexLogId": "07L7R00004swx3oUAA",
+      "apexClass": {
+        "id": "01p7R00000CFplqQAD",
+        "name": "TestBatch_UpdateAccountsCA",
+        "namespacePrefix": null,
+        "fullName": "TestBatch_UpdateAccountsCA"
+      },
+      "runTime": 149,
+      "testTimestamp": "2023-09-25T11:04:57.000+0000",
+      "fullName": "TestBatch_UpdateAccountsCA.Test",
+      "diagnostic": {
+        "exceptionMessage": "System.ListException: Row with null Id at index: 0",
+        "exceptionStackTrace": "Class.Handler_UpdateAccountCA.updateAccountCA: line 6, column 1\nClass.Batch_UpdateAccountsCA.execute: line 11, column 1",
+        "className": "Handler_UpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 6,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Batch_UpdateAccountsCA",
+          "apexClassOrTriggerId": "01p7R00000CFmRDQA1",
+          "apexTestClassId": "01p7R00000CFplqQAD",
+          "apexTestMethodName": "Test",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 1,
+          "percentage": "80%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              9,
+              11
+            ],
+            "uncoveredLines": [
+              14
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Handler_UpdateAccountCA",
+          "apexClassOrTriggerId": "01p7R00000CFmR3QAL",
+          "apexTestClassId": "01p7R00000CFplqQAD",
+          "apexTestMethodName": "Test",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 18,
+          "percentage": "14%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              6
+            ],
+            "uncoveredLines": [
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              16,
+              19,
+              21,
+              22,
+              23,
+              26,
+              27,
+              30,
+              32,
+              33,
+              34,
+              36
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p7R00000CFmRDQA1",
+      "name": "Batch_UpdateAccountsCA",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 1,
+      "percentage": "80%",
+      "coveredLines": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "uncoveredLines": [
+        14
+      ]
+    },
+    {
+      "apexId": "01p7R00000CFmR3QAL",
+      "name": "Handler_UpdateAccountCA",
+      "type": "ApexClass",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 18,
+      "percentage": "14%",
+      "coveredLines": [
+        3,
+        5,
+        6
+      ],
+      "uncoveredLines": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        23,
+        26,
+        27,
+        30,
+        32,
+        33,
+        34,
+        36
+      ]
+    }
+  ]
+}

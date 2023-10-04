@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "Handler_UpdateAccountCA",
+      "apexClassOrTriggerId": "01p7R00000CFmR3QAL",
+      "apexTestClassId": "01p7R00000CFqBpQAL",
+      "apexTestMethodName": "test",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 10,
+      "percentage": "52%",
+      "coverage": {
+        "coveredLines": [
+          19,
+          21,
+          22,
+          23,
+          26,
+          27,
+          30,
+          32,
+          33,
+          34,
+          36
+        ],
+        "uncoveredLines": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          16
+        ]
+      }
+    }
+  ]
+]
